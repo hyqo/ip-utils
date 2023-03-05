@@ -7,14 +7,15 @@
         executionOrder="random"
         failOnWarning="true"
         failOnRisky="true"
-        failOnEmptyTestSuite="true"
         beStrictAboutOutputDuringTests="true"
+        verbose="true"
 >
     <testsuites>
         <testsuite name="Test Suite">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
+
     <coverage includeUncoveredFiles="false"
               ignoreDeprecatedCodeUnits="true">
         <include>
